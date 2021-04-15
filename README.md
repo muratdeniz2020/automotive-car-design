@@ -1,2 +1,6 @@
-# automotive-car-design
-i will create a good design of landing page in figma then i will put all the html and css codes together to have a great practice of cars websites.
+# automotive-car-design-landing page
+
+#Design in figma 
+https://www.figma.com/file/0L30OS9jkj9nMLhZzBm6rP/Automotive-Car?node-id=0%3A1
+
+
