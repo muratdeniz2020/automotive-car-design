@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+body{
+    line-height: 1;
+}
+
+header{
+   height: 600px;
+   background: url(background.jpg) no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+.topnav{
+width: 100%;
+background-color: #020405;
+}
+
+.navleft{
+    float: left;
+    display: flex;
+}
+
+.navlogo{
+    height: 72px;
+    width: 80px;
+    margin: 0;
+    cursor: pointer;
+}
+.h2-title{
+    color:#FFFFFF;
+    text-align: 2px;
+    margin: 17px;
+}
+
+.navright{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin: 10px;
+}
+ul.topnav li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    min-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ul.topnav li a:hover{
+    background-color: #4C2F2F;
+}
+.navbtn{
+    background-color: #4C2F2F;
+    margin: 9px;
+    padding: 2px;
+}
+
+.navbtn:hover{
+    background-color: #FFFFFF;
+}
+
+ul.topnav li.dropdownicon{
+    display: none;
+}
+
+@media screen and (max-width: 680px){
+    ul.topnav li , .navbtn{
+        display :none;
+    }
+
+    ul.topnav li.dropdownicon{
+        display: block;
+        float: right;
+    }
+
+    uL.responsive{
+        position: relative;
+    }
+
+    ul.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.responsive li a{
+     display: block;
+       text-align: left;
+    }
+}
+
+.center-text{
+    text-align: center;
+    margin-top: 70px;
+    padding: 5px;
+}
+
+.center-text h1{
+    font-size: 70px;
+    color: #4C2F2F;
+}
+
+.center-text h3{
+    font-size: 40px;
+}
+
+.center-text button{
+    font-size: 20px;
+}
